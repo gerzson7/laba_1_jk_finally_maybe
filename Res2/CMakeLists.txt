@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 include_directories("inc")
 
 # Сказать программе, что должен быть исполняемый файл
-add_executable("${PROJECT_NAME}" main.cpp)
+add_executable("${PROJECT_NAME}" ConsoleApplication1.cpp)
 
 # Копирование файла
 #file(COPY "input.txt" DESTINATION "/")
